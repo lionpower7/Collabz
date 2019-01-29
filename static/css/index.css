@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed|Lato');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Cabin", "Lato", sans-serif;
+}
+
+section.landFront {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: linear-gradient(to top, #478ad3, #3897db, #27a3e2, #17afe7,
+    #0fbbeb, #17b5dd, #20aed0, #29a8c3, #2b8ea4, #2a7586, #275d69, #23464e);
+    padding-bottom: 3%;
+}
+
+#Co-Logo {
+  flex: 1;
+  align-self: flex-start;
+  padding: 2%;
+}
+
+#Co-Logo a {
+  background: -webkit-linear-gradient(#00E5BA,#97F38C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+
+#Intro h2 {
+  background: -webkit-linear-gradient(#00E5BA,#97F38C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#Intro p {
+  color: #2A606B;
+}
+
+.joinUs button {
+  height: 5%;
+  width: 15%;
+  padding: 1%;
+  font-size: 0.80rem;
+  border-radius: 30px;
+  font-family: "Lato", sans-serif;
+  color: white;
+  background-image: linear-gradient(to top, #00E5BA,#97F38C);
+     border: none;
+}
+
+
+.joinUs button:hover {
+  background-image: linear-gradient(to top, #478ad3, #3897db, #27a3e2, #17afe7,
+    #0fbbeb, #17b5dd, #20aed0);
+  transition: 1s;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.landMid {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #478ad3, #3897db, #27a3e2, #17afe7,
+    #0fbbeb, #17b5dd, #20aed0);
+    padding-bottom: 20px;
+}
+
+#teamDescription {
+  padding-left: 3%;
+}
+
+
+#teamDescription h3 {
+  color: #97F38C;
+}
+
+#teamDescription p {
+  color: white;
+}
+
+.landEnd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #3e7584, #386773, #325862);s
+  flex-direction: column;
+  padding: 10px;
+}
+
+#faceBook {
+  color: #fff;
+  font-size: 1.65rem;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+#gitHub {
+  color: black;
+  font-size: 1.65rem;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+#myTwitter {
+  color: #00aced;
+  font-size: 1.65rem;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.ourRights {
+  color: #fff;
+}
+
+#Co-Logo2 {
+  text-decoration: none;
+  color:  #00E5BA;
+}
